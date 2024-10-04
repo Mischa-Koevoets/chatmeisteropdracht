@@ -1,0 +1,1 @@
+E:\projects\ChatMeister\ChatMeister\ChatMeister.csproj;x86
