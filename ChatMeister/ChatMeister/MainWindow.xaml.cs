@@ -28,15 +28,22 @@ namespace ChatMeister
         public MainWindow()
         {
             this.InitializeComponent();
-            using (var db = new ChatContext())
+            
+
+        }
+
+        private void pageSelectorBar_SelectionChanged(SelectorBar sender, SelectorBarSelectionChangedEventArgs args)
+        {
+            SelectorBarItem selectedItem = sender.SelectedItem as SelectorBarItem;
+
+            if (selectedItem == chatsSelectorBarItem)
             {
-                db.Database.EnsureCreated();
-
-                Chats.ItemsSource = db.Chats.ToList();
-
-
+                contentFrame.Navigate(typeof(ChatPage));
             }
-
+            else if (selectedItem == messageSelectorBarItem)
+            {
+                contentFrame.Navigate(typeof(MessagePage));
+            }
         }
     }
 }

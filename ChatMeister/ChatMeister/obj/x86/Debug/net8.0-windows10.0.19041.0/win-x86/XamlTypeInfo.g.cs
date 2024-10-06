@@ -226,29 +226,53 @@ namespace ChatMeister.ChatMeister_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
+            _typeNameTable = new string[22];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
-            _typeNameTable[4] = "ChatMeister.MainWindow";
-            _typeNameTable[5] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[7] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[8] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[9] = "Int32";
+            _typeNameTable[4] = "ChatMeister.ChatPage";
+            _typeNameTable[5] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[7] = "Microsoft.UI.Xaml.Controls.SelectorBar";
+            _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.Control";
+            _typeNameTable[9] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.SelectorBarItem>";
+            _typeNameTable[10] = "Microsoft.UI.Xaml.Controls.SelectorBarItem";
+            _typeNameTable[11] = "Microsoft.UI.Xaml.Controls.ItemContainer";
+            _typeNameTable[12] = "Microsoft.UI.Xaml.UIElement";
+            _typeNameTable[13] = "String";
+            _typeNameTable[14] = "Microsoft.UI.Xaml.Controls.IconElement";
+            _typeNameTable[15] = "ChatMeister.MainWindow";
+            _typeNameTable[16] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[17] = "ChatMeister.MessagePage";
+            _typeNameTable[18] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[19] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[20] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[21] = "Int32";
 
-            _typeTable = new global::System.Type[10];
+            _typeTable = new global::System.Type[22];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
-            _typeTable[4] = typeof(global::ChatMeister.MainWindow);
-            _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[7] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[8] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[9] = typeof(global::System.Int32);
+            _typeTable[4] = typeof(global::ChatMeister.ChatPage);
+            _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Controls.SelectorBar);
+            _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
+            _typeTable[9] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.SelectorBarItem>);
+            _typeTable[10] = typeof(global::Microsoft.UI.Xaml.Controls.SelectorBarItem);
+            _typeTable[11] = typeof(global::Microsoft.UI.Xaml.Controls.ItemContainer);
+            _typeTable[12] = typeof(global::Microsoft.UI.Xaml.UIElement);
+            _typeTable[13] = typeof(global::System.String);
+            _typeTable[14] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
+            _typeTable[15] = typeof(global::ChatMeister.MainWindow);
+            _typeTable[16] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[17] = typeof(global::ChatMeister.MessagePage);
+            _typeTable[18] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[20] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[21] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -284,12 +308,23 @@ namespace ChatMeister.ChatMeister_XamlTypeInfo
         }
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
-        private object Activate_4_MainWindow() { return new global::ChatMeister.MainWindow(); }
-        private object Activate_6_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_4_ChatPage() { return new global::ChatMeister.ChatPage(); }
+        private object Activate_7_SelectorBar() { return new global::Microsoft.UI.Xaml.Controls.SelectorBar(); }
+        private object Activate_10_SelectorBarItem() { return new global::Microsoft.UI.Xaml.Controls.SelectorBarItem(); }
+        private object Activate_11_ItemContainer() { return new global::Microsoft.UI.Xaml.Controls.ItemContainer(); }
+        private object Activate_15_MainWindow() { return new global::ChatMeister.MainWindow(); }
+        private object Activate_17_MessagePage() { return new global::ChatMeister.MessagePage(); }
+        private object Activate_18_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
-        private void StaticInitializer_4_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMeister.MainWindow).TypeHandle);
-        private void StaticInitializer_6_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_8_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_4_ChatPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMeister.ChatPage).TypeHandle);
+        private void StaticInitializer_7_SelectorBar() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.SelectorBar).TypeHandle);
+        private void StaticInitializer_9_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.SelectorBarItem>).TypeHandle);
+        private void StaticInitializer_10_SelectorBarItem() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.SelectorBarItem).TypeHandle);
+        private void StaticInitializer_11_ItemContainer() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemContainer).TypeHandle);
+        private void StaticInitializer_15_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMeister.MainWindow).TypeHandle);
+        private void StaticInitializer_17_MessagePage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMeister.MessagePage).TypeHandle);
+        private void StaticInitializer_18_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_20_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -297,7 +332,13 @@ namespace ChatMeister.ChatMeister_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_8_IList(object instance, object item)
+        private void VectorAdd_9_IList(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.SelectorBarItem>)instance;
+            var newItem = (global::Microsoft.UI.Xaml.Controls.SelectorBarItem)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_20_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -335,22 +376,100 @@ namespace ChatMeister.ChatMeister_XamlTypeInfo
                 xamlType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  ChatMeister.MainWindow
-                userType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_4_MainWindow;
-                userType.StaticInitializer = StaticInitializer_4_MainWindow;
+            case 4:   //  ChatMeister.ChatPage
+                userType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_ChatPage;
+                userType.StaticInitializer = StaticInitializer_4_ChatPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  Microsoft.UI.Xaml.Window
+            case 5:   //  Microsoft.UI.Xaml.Controls.Page
                 xamlType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 6:   //  Microsoft.UI.Xaml.Controls.UserControl
+                xamlType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 7:   //  Microsoft.UI.Xaml.Controls.SelectorBar
+                userType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.Activator = Activate_7_SelectorBar;
+                userType.StaticInitializer = StaticInitializer_7_SelectorBar;
+                userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.SelectorBar.Items");
+                userType.AddMemberName("Items");
+                userType.AddMemberName("SelectedItem");
+                xamlType = userType;
+                break;
+
+            case 8:   //  Microsoft.UI.Xaml.Controls.Control
+                xamlType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 9:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.SelectorBarItem>
+                userType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_9_IList;
+                userType.CollectionAdd = VectorAdd_9_IList;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 10:   //  Microsoft.UI.Xaml.Controls.SelectorBarItem
+                userType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemContainer"));
+                userType.Activator = Activate_10_SelectorBarItem;
+                userType.StaticInitializer = StaticInitializer_10_SelectorBarItem;
+                userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.ItemContainer.Child");
+                userType.AddMemberName("Text");
+                userType.AddMemberName("Icon");
+                xamlType = userType;
+                break;
+
+            case 11:   //  Microsoft.UI.Xaml.Controls.ItemContainer
+                userType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.Activator = Activate_11_ItemContainer;
+                userType.StaticInitializer = StaticInitializer_11_ItemContainer;
+                userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.ItemContainer.Child");
+                userType.AddMemberName("Child");
+                userType.AddMemberName("IsSelected");
+                xamlType = userType;
+                break;
+
+            case 12:   //  Microsoft.UI.Xaml.UIElement
+                xamlType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 13:   //  String
+                xamlType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 14:   //  Microsoft.UI.Xaml.Controls.IconElement
+                xamlType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 15:   //  ChatMeister.MainWindow
+                userType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
+                userType.Activator = Activate_15_MainWindow;
+                userType.StaticInitializer = StaticInitializer_15_MainWindow;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 16:   //  Microsoft.UI.Xaml.Window
+                xamlType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 17:   //  ChatMeister.MessagePage
+                userType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_17_MessagePage;
+                userType.StaticInitializer = StaticInitializer_17_MessagePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 18:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_6_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_6_TreeViewNode;
+                userType.Activator = Activate_18_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_18_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -362,19 +481,19 @@ namespace ChatMeister.ChatMeister_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 7:   //  Microsoft.UI.Xaml.DependencyObject
+            case 19:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 20:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_8_IList;
-                userType.CollectionAdd = VectorAdd_8_IList;
+                userType.StaticInitializer = StaticInitializer_20_IList;
+                userType.CollectionAdd = VectorAdd_20_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 9:   //  Int32
+            case 21:   //  Int32
                 xamlType = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -446,52 +565,107 @@ namespace ChatMeister.ChatMeister_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.XamlControlsResources)instance;
             that.UseCompactResources = (global::System.Boolean)Value;
         }
-        private object get_1_TreeViewNode_Children(object instance)
+        private object get_1_SelectorBar_Items(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.SelectorBar)instance;
+            return that.Items;
+        }
+        private object get_2_ItemContainer_Child(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ItemContainer)instance;
+            return that.Child;
+        }
+        private void set_2_ItemContainer_Child(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ItemContainer)instance;
+            that.Child = (global::Microsoft.UI.Xaml.UIElement)Value;
+        }
+        private object get_3_SelectorBarItem_Text(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.SelectorBarItem)instance;
+            return that.Text;
+        }
+        private void set_3_SelectorBarItem_Text(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.SelectorBarItem)instance;
+            that.Text = (global::System.String)Value;
+        }
+        private object get_4_SelectorBarItem_Icon(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.SelectorBarItem)instance;
+            return that.Icon;
+        }
+        private void set_4_SelectorBarItem_Icon(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.SelectorBarItem)instance;
+            that.Icon = (global::Microsoft.UI.Xaml.Controls.IconElement)Value;
+        }
+        private object get_5_ItemContainer_IsSelected(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ItemContainer)instance;
+            return that.IsSelected;
+        }
+        private void set_5_ItemContainer_IsSelected(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ItemContainer)instance;
+            that.IsSelected = (global::System.Boolean)Value;
+        }
+        private object get_6_SelectorBar_SelectedItem(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.SelectorBar)instance;
+            return that.SelectedItem;
+        }
+        private void set_6_SelectorBar_SelectedItem(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.SelectorBar)instance;
+            that.SelectedItem = (global::Microsoft.UI.Xaml.Controls.SelectorBarItem)Value;
+        }
+        private object get_7_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_2_TreeViewNode_Content(object instance)
+        private object get_8_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_2_TreeViewNode_Content(object instance, object Value)
+        private void set_8_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_3_TreeViewNode_Depth(object instance)
+        private object get_9_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_4_TreeViewNode_HasChildren(object instance)
+        private object get_10_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_5_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_11_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_5_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_11_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_6_TreeViewNode_IsExpanded(object instance)
+        private object get_12_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_6_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_12_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_7_TreeViewNode_Parent(object instance)
+        private object get_13_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -511,50 +685,92 @@ namespace ChatMeister.ChatMeister_XamlTypeInfo
                 xamlMember.Getter = get_0_XamlControlsResources_UseCompactResources;
                 xamlMember.Setter = set_0_XamlControlsResources_UseCompactResources;
                 break;
+            case "Microsoft.UI.Xaml.Controls.SelectorBar.Items":
+                userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.SelectorBar");
+                xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "Items", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.SelectorBarItem>");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_1_SelectorBar_Items;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ItemContainer.Child":
+                userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemContainer");
+                xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "Child", "Microsoft.UI.Xaml.UIElement");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_2_ItemContainer_Child;
+                xamlMember.Setter = set_2_ItemContainer_Child;
+                break;
+            case "Microsoft.UI.Xaml.Controls.SelectorBarItem.Text":
+                userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.SelectorBarItem");
+                xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "Text", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_3_SelectorBarItem_Text;
+                xamlMember.Setter = set_3_SelectorBarItem_Text;
+                break;
+            case "Microsoft.UI.Xaml.Controls.SelectorBarItem.Icon":
+                userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.SelectorBarItem");
+                xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "Icon", "Microsoft.UI.Xaml.Controls.IconElement");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_4_SelectorBarItem_Icon;
+                xamlMember.Setter = set_4_SelectorBarItem_Icon;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ItemContainer.IsSelected":
+                userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemContainer");
+                xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "IsSelected", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_5_ItemContainer_IsSelected;
+                xamlMember.Setter = set_5_ItemContainer_IsSelected;
+                break;
+            case "Microsoft.UI.Xaml.Controls.SelectorBar.SelectedItem":
+                userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.SelectorBar");
+                xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "SelectedItem", "Microsoft.UI.Xaml.Controls.SelectorBarItem");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_6_SelectorBar_SelectedItem;
+                xamlMember.Setter = set_6_SelectorBar_SelectedItem;
+                break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_1_TreeViewNode_Children;
+                xamlMember.Getter = get_7_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_2_TreeViewNode_Content;
-                xamlMember.Setter = set_2_TreeViewNode_Content;
+                xamlMember.Getter = get_8_TreeViewNode_Content;
+                xamlMember.Setter = set_8_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_3_TreeViewNode_Depth;
+                xamlMember.Getter = get_9_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_10_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_5_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_5_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_11_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_11_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_6_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_6_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_12_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_12_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::ChatMeister.ChatMeister_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMeister.ChatMeister_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_7_TreeViewNode_Parent;
+                xamlMember.Getter = get_13_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

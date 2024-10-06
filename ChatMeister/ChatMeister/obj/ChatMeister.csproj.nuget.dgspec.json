@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projects\\ChatMeister\\ChatMeister\\ChatMeister.csproj": {}
+    "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\ChatMeister.csproj": {}
   },
   "projects": {
-    "E:\\projects\\ChatMeister\\ChatMeister\\ChatMeister.csproj": {
+    "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\ChatMeister.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\ChatMeister\\ChatMeister\\ChatMeister.csproj",
+        "projectUniqueName": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\ChatMeister.csproj",
         "projectName": "ChatMeister",
-        "projectPath": "E:\\projects\\ChatMeister\\ChatMeister\\ChatMeister.csproj",
+        "projectPath": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\ChatMeister.csproj",
         "packagesPath": "C:\\Users\\misch\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\ChatMeister\\ChatMeister\\obj\\",
+        "outputPath": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

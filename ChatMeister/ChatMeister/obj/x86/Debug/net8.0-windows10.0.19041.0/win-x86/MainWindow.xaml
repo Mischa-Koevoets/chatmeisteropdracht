@@ -8,15 +8,23 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:localData="using:ChatMeister.Data"
     mc:Ignorable="d">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-    <ListView x:ConnectionId='2' x:Name="Chats">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <StackPanel>
-                    <TextBlock Text="{Binding Name}" />
-                </StackPanel>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+        <SelectorBar x:ConnectionId='2' x:Name="pageSelectorBar"
+                 Grid.Row="0"
+                                                                    >
+        <SelectorBarItem x:ConnectionId='4' x:Name="chatsSelectorBarItem"  Text="Chats"/>
+        <SelectorBarItem x:ConnectionId='5' x:Name="messageSelectorBarItem"  Text="Messages"/>
+        </SelectorBar>
+
+        <Frame x:ConnectionId='3' x:Name="contentFrame"
+                Grid.Row="1"/>
+
+    </Grid>
+  
 </Window>
 

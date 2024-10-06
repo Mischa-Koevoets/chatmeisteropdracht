@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page
-    x:Class="ChatMeister.BlankPage1"
+    x:Class="ChatMeister.ChatPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:ChatMeister"
@@ -11,5 +11,14 @@
 
     <Grid>
 
+        <ListView x:Name="Chats" Grid.Row="1" ItemClick="Chats_ItemClick" IsItemClickEnabled="True">
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Name}"  />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Page>

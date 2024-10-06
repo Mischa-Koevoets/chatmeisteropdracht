@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-E865JT3</Machine>
+    <Machine>DESKTOP-GKO1EL6</Machine>
     <WindowsUser>misch</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,31 +10,31 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>53b8aaad-0378-47bc-9452-4ce67e12e4d4</PackageIdentityName>
     <PackageIdentityPublisher>CN=misch</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\projects\ChatMeister\ChatMeister\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\projects\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppX</LayoutDir>
+    <LayoutDir>D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\projects\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
+    <AppXManifest Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ChatMeister.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ChatMeister.runtimeconfig.json">
       <PackagePath>ChatMeister.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ChatMeister.dll">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ChatMeister.dll">
       <PackagePath>ChatMeister.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>ChatMeister.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\misch\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x86\native\WebView2Loader.dll">
@@ -694,28 +694,28 @@
     <AppxPackagedFile Include="C:\Users\misch\.nuget\packages\microsoft.web.webview2\1.0.2651.64\lib_manual\net6.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ChatMeister.deps.json">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ChatMeister.deps.json">
       <PackagePath>ChatMeister.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

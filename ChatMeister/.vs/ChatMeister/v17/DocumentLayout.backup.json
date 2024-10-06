@@ -1,41 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\projects\\ChatMeister\\",
+  "WorkspaceRootPath": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|e:\\projects\\chatmeister\\chatmeister\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|d:\\projects\\chatmeisteropdracht\\chatmeister\\chatmeister\\messagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\messagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|e:\\projects\\chatmeister\\chatmeister\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|d:\\projects\\chatmeisteropdracht\\chatmeister\\chatmeister\\chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|e:\\projects\\chatmeister\\chatmeister\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|d:\\projects\\chatmeisteropdracht\\chatmeister\\chatmeister\\chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|d:\\projects\\chatmeisteropdracht\\chatmeister\\chatmeister\\messagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\messagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|d:\\projects\\chatmeisteropdracht\\chatmeister\\chatmeister\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|e:\\projects\\chatmeister\\chatmeister\\chatmeister.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\chatmeister.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|d:\\projects\\chatmeisteropdracht\\chatmeister\\chatmeister\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|e:\\projects\\chatmeister\\chatmeister\\chatmeister.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|d:\\projects\\chatmeisteropdracht\\chatmeister\\chatmeister\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|d:\\projects\\chatmeisteropdracht\\chatmeister\\chatmeister\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|d:\\projects\\chatmeisteropdracht\\chatmeister\\chatmeister\\chatmeister.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\chatmeister.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|e:\\projects\\chatmeister\\chatmeister\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|e:\\projects\\chatmeister\\chatmeister\\data\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|d:\\projects\\chatmeisteropdracht\\chatmeister\\chatmeister\\data\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\data\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|e:\\projects\\chatmeister\\chatmeister\\data\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|d:\\projects\\chatmeisteropdracht\\chatmeister\\chatmeister\\data\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\data\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|e:\\projects\\chatmeister\\chatmeister\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|d:\\projects\\chatmeisteropdracht\\chatmeister\\chatmeister\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDD2A6B4-259F-4E1F-9F69-6440E4B20B20}|ChatMeister\\ChatMeister.csproj|solutionrelative:chatmeister\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -49,126 +61,172 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatPage.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\ChatPage.xaml.cs",
+              "RelativeDocumentMoniker": "ChatMeister\\ChatPage.xaml.cs",
+              "ToolTip": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\ChatPage.xaml.cs",
+              "RelativeToolTip": "ChatMeister\\ChatPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T17:58:00.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatPage.xaml",
+              "DocumentMoniker": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\ChatPage.xaml",
+              "RelativeDocumentMoniker": "ChatMeister\\ChatPage.xaml",
+              "ToolTip": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\ChatPage.xaml",
+              "RelativeToolTip": "ChatMeister\\ChatPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-06T17:57:46.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\App.xaml",
+              "RelativeDocumentMoniker": "ChatMeister\\App.xaml",
+              "ToolTip": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\App.xaml",
+              "RelativeToolTip": "ChatMeister\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-06T17:17:46.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ChatMeister\\MainWindow.xaml",
+              "ToolTip": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\MainWindow.xaml",
+              "RelativeToolTip": "ChatMeister\\MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-06T17:15:29.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessagePage.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\MessagePage.xaml.cs",
+              "RelativeDocumentMoniker": "ChatMeister\\MessagePage.xaml.cs",
+              "ToolTip": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\MessagePage.xaml.cs",
+              "RelativeToolTip": "ChatMeister\\MessagePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T17:13:06.544Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ChatMeister",
-              "DocumentMoniker": "E:\\projects\\ChatMeister\\ChatMeister\\ChatMeister.csproj",
-              "RelativeDocumentMoniker": "ChatMeister\\ChatMeister.csproj",
-              "ToolTip": "E:\\projects\\ChatMeister\\ChatMeister\\ChatMeister.csproj",
-              "RelativeToolTip": "ChatMeister\\ChatMeister.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-04T07:23:25.157Z",
+              "Title": "MessagePage.xaml",
+              "DocumentMoniker": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\MessagePage.xaml",
+              "RelativeDocumentMoniker": "ChatMeister\\MessagePage.xaml",
+              "ToolTip": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\MessagePage.xaml",
+              "RelativeToolTip": "ChatMeister\\MessagePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-06T17:01:02.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "E:\\projects\\ChatMeister\\ChatMeister\\App.xaml.cs",
-              "RelativeDocumentMoniker": "ChatMeister\\App.xaml.cs",
-              "ToolTip": "E:\\projects\\ChatMeister\\ChatMeister\\App.xaml.cs",
-              "RelativeToolTip": "ChatMeister\\App.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T07:22:56.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\projects\\ChatMeister\\ChatMeister\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ChatMeister\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\projects\\ChatMeister\\ChatMeister\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\MainWindow.xaml.cs",
               "RelativeToolTip": "ChatMeister\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T06:56:18.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\projects\\ChatMeister\\ChatMeister\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ChatMeister\\MainWindow.xaml",
-              "ToolTip": "E:\\projects\\ChatMeister\\ChatMeister\\MainWindow.xaml",
-              "RelativeToolTip": "ChatMeister\\MainWindow.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-01T08:28:43.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Message.cs",
-              "DocumentMoniker": "E:\\projects\\ChatMeister\\ChatMeister\\Data\\Message.cs",
+              "DocumentMoniker": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\Data\\Message.cs",
               "RelativeDocumentMoniker": "ChatMeister\\Data\\Message.cs",
-              "ToolTip": "E:\\projects\\ChatMeister\\ChatMeister\\Data\\Message.cs",
+              "ToolTip": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\Data\\Message.cs",
               "RelativeToolTip": "ChatMeister\\Data\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T07:18:47.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "User.cs",
-              "DocumentMoniker": "E:\\projects\\ChatMeister\\ChatMeister\\Data\\User.cs",
+              "DocumentMoniker": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\Data\\User.cs",
               "RelativeDocumentMoniker": "ChatMeister\\Data\\User.cs",
-              "ToolTip": "E:\\projects\\ChatMeister\\ChatMeister\\Data\\User.cs",
+              "ToolTip": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\Data\\User.cs",
               "RelativeToolTip": "ChatMeister\\Data\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T07:19:00.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Chat.cs",
-              "DocumentMoniker": "E:\\projects\\ChatMeister\\ChatMeister\\Data\\Chat.cs",
+              "DocumentMoniker": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\Data\\Chat.cs",
               "RelativeDocumentMoniker": "ChatMeister\\Data\\Chat.cs",
-              "ToolTip": "E:\\projects\\ChatMeister\\ChatMeister\\Data\\Chat.cs",
+              "ToolTip": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\Data\\Chat.cs",
               "RelativeToolTip": "ChatMeister\\Data\\Chat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T07:19:12.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DbContext.cs",
-              "DocumentMoniker": "E:\\projects\\ChatMeister\\ChatMeister\\Data\\DbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\Data\\DbContext.cs",
               "RelativeDocumentMoniker": "ChatMeister\\Data\\DbContext.cs",
-              "ToolTip": "E:\\projects\\ChatMeister\\ChatMeister\\Data\\DbContext.cs",
+              "ToolTip": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\Data\\DbContext.cs",
               "RelativeToolTip": "ChatMeister\\Data\\DbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T07:18:30.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ChatMeister.csproj",
-              "DocumentMoniker": "E:\\projects\\ChatMeister\\ChatMeister\\ChatMeister.csproj",
+              "DocumentMoniker": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\ChatMeister.csproj",
               "RelativeDocumentMoniker": "ChatMeister\\ChatMeister.csproj",
-              "ToolTip": "E:\\projects\\ChatMeister\\ChatMeister\\ChatMeister.csproj",
+              "ToolTip": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\ChatMeister.csproj",
               "RelativeToolTip": "ChatMeister\\ChatMeister.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-01T06:54:26.985Z"
+              "WhenOpened": "2024-10-01T06:54:26.985Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Microsoft.WindowsAppSDK.targets",
               "DocumentMoniker": "C:\\Users\\misch\\.nuget\\packages\\microsoft.windowsappsdk\\1.6.240829007\\buildTransitive\\Microsoft.WindowsAppSDK.targets",
               "ToolTip": "C:\\Users\\misch\\.nuget\\packages\\microsoft.windowsappsdk\\1.6.240829007\\buildTransitive\\Microsoft.WindowsAppSDK.targets",
-              "ViewState": "AgIAADMAAAAAAAAAAAAUwEsAAAAIAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2024-10-01T06:54:17.756Z"
             }

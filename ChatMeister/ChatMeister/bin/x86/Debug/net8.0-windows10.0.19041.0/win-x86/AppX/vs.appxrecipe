@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-E865JT3</Machine>
+    <Machine>DESKTOP-GKO1EL6</Machine>
     <WindowsUser>misch</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,14 +10,14 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>53b8aaad-0378-47bc-9452-4ce67e12e4d4</PackageIdentityName>
     <PackageIdentityPublisher>CN=misch</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\projects\ChatMeister\ChatMeister\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\projects\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppX</LayoutDir>
+    <LayoutDir>D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppX</LayoutDir>
     <RegisteredManifestChecksum>E26F7FECF2B10A9DA163C336DDA06AE6CA26A2D2F755E365289B9E890D37FF24</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>53b8aaad-0378-47bc-9452-4ce67e12e4d4_1.0.0.0_x86__3er5ksxfqt8vm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>53b8aaad-0378-47bc-9452-4ce67e12e4d4_3er5ksxfqt8vm!App</RegisteredUserModeAppID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\projects\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
+    <AppXManifest Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-04T07:54:41.749</Modified>
+      <Modified>2024-10-06T18:18:16.000</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-04T07:27:33.656</Modified>
+      <Modified>2024-10-06T18:16:45.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ChatMeister.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ChatMeister.runtimeconfig.json">
       <PackagePath>ChatMeister.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-04T07:27:33.219</Modified>
+      <Modified>2024-10-06T17:28:42.614</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ChatMeister.dll">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ChatMeister.dll">
       <PackagePath>ChatMeister.dll</PackagePath>
-      <Modified>2024-10-04T07:54:41.109</Modified>
+      <Modified>2024-10-06T18:18:15.479</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>ChatMeister.exe</PackagePath>
-      <Modified>2024-10-04T07:54:41.249</Modified>
+      <Modified>2024-10-06T18:18:15.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\misch\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x86\native\WebView2Loader.dll">
       <PackagePath>runtimes\win-x86\native\WebView2Loader.dll</PackagePath>
@@ -925,37 +925,37 @@
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
       <Modified>2024-07-20T08:33:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ChatMeister.deps.json">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ChatMeister.deps.json">
       <PackagePath>ChatMeister.deps.json</PackagePath>
-      <Modified>2024-10-04T07:27:33.063</Modified>
+      <Modified>2024-10-06T17:58:42.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2024-09-26T09:04:36.876</Modified>
+      <Modified>2024-10-06T16:14:00.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-09-26T09:04:36.876</Modified>
+      <Modified>2024-10-06T16:14:00.473</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2024-09-26T09:04:36.876</Modified>
+      <Modified>2024-10-06T16:14:00.474</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2024-09-26T09:04:36.876</Modified>
+      <Modified>2024-10-06T16:14:00.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2024-09-26T09:04:36.876</Modified>
+      <Modified>2024-10-06T16:14:00.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2024-09-26T09:04:36.876</Modified>
+      <Modified>2024-10-06T16:14:00.479</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\projects\ChatMeister\ChatMeister\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Projects\chatmeisteropdracht\ChatMeister\ChatMeister\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2024-09-26T09:04:36.876</Modified>
+      <Modified>2024-10-06T16:14:00.480</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

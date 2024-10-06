@@ -13,7 +13,8 @@
     <EnableMsixTooling>true</EnableMsixTooling>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="MessageWindow.xaml" />
+    <None Remove="ChatPage.xaml" />
+    <None Remove="MessagePage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -43,7 +44,12 @@
     <ProjectCapability Include="Msix" />
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MessageWindow.xaml">
+    <Page Update="ChatPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MessagePage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>

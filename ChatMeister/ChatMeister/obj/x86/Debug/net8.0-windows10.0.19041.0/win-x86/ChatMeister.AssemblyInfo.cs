@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatMeister")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3080d8151c11003f984d70beb68d63ea7ba25456")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatMeister")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatMeister")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wrkhgCy3jco=",
+  "dgSpecHash": "JxEcc0HApPI=",
   "success": true,
-  "projectFilePath": "E:\\projects\\ChatMeister\\ChatMeister\\ChatMeister.csproj",
+  "projectFilePath": "D:\\Projects\\chatmeisteropdracht\\ChatMeister\\ChatMeister\\ChatMeister.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\misch\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.2\\microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
     "C:\\Users\\misch\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.2\\microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",
